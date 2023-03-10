@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap"
+      rel="stylesheet"
+    />
+    <title>Quiz-Project</title>
+
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body class="child">
+    <div class="container">
+      <div id="title " class="flow-content">
+        <h2>Copii vs Parinti</h2>
+        <p>
+          Joc pentru parinti si copii (concurs de intrebari din cultura
+          generala)
+        </p>
+      </div>
+
+      <main>
+        <div class="content flow-content" id="question-area">
+          <div id="question-text">
+            <h1>What is better if you wish to achieve success?</h1>
+          </div>
+          <div id="answer-buttons" class="btn-grid">
+            <button class="btn">Answer 1</button>
+            <button class="btn">Answer 2</button>
+            <button class="btn">Answer 3</button>
+            <button class="btn">Answer 4</button>
+          </div>
+        </div>
+      </main>
+
+      <div class="flow-content">
+        <div class="split">
+          <section class="player 0">
+            <h2 class="name" id="name--0">Parinti</h2>
+            <p class="score" id="score--0">43</p>
+            <div class="current">
+              <p class="current-label">Current</p>
+              <p class="current-score" id="current--0">0</p>
+            </div>
+          </section>
+          <section class="player 1">
+            <h2 class="name" id="name--1">Copii</h2>
+            <p class="score" id="score--1">24</p>
+            <div class="current">
+              <p class="current-label">Current</p>
+              <p class="current-score" id="current--1">0</p>
+            </div>
+          </section>
+        </div>
+        <div class="controls btn-grid">
+          <button class="btn btn--new">New game</button>
+          <button class="btn btn--next">Next</button>
+          <button class="btn btn-restart" id="restart">Restart</button>
+        </div>
+      </div>
+    </div>
+    <!-- <script src="/index.js"></script> -->
+  </body>
+</html>
